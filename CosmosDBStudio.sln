@@ -1,26 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29424.173
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBStudio", "src\CosmosDBStudio\CosmosDBStudio.csproj", "{0561A3C8-1B05-41E2-9484-812C02F64F88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18DBD96F-DB14-425D-BD6B-E6BED1C67562}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		README.md = README.md
 		Directory.Build.props = Directory.Build.props
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "CosmosDBStudio.Packaging", "pkg\CosmosDBStudio.Packaging\CosmosDBStudio.Packaging.wapproj", "{411D9B5F-7842-4721-98C0-8F002D06D1ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBStudio.ViewModel", "src\CosmosDBStudio.ViewModel\CosmosDBStudio.ViewModel.csproj", "{C04A34A1-C1D2-42E4-B790-31C49D935A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBStudio.ViewModel", "src\CosmosDBStudio.ViewModel\CosmosDBStudio.ViewModel.csproj", "{C04A34A1-C1D2-42E4-B790-31C49D935A11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21E1031C-A08B-44CE-B313-43AFC27E3C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBStudio.Model", "src\CosmosDBStudio.Model\CosmosDBStudio.Model.csproj", "{7F866DE9-0EDD-4EA8-8883-7429C74172F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBStudio.Model", "src\CosmosDBStudio.Model\CosmosDBStudio.Model.csproj", "{7F866DE9-0EDD-4EA8-8883-7429C74172F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBStudio.Util", "src\CosmosDBStudio.Util\CosmosDBStudio.Util.csproj", "{289328C4-2B2A-4440-B356-9267400C64D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDBStudio.Util", "src\CosmosDBStudio.Util\CosmosDBStudio.Util.csproj", "{289328C4-2B2A-4440-B356-9267400C64D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBStudio.Maui", "CosmosDBStudio.Maui\CosmosDBStudio.Maui.csproj", "{53822528-7EE0-48C5-9323-9760C8FFE658}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,17 +100,30 @@ Global
 		{289328C4-2B2A-4440-B356-9267400C64D8}.Release|x64.Build.0 = Release|Any CPU
 		{289328C4-2B2A-4440-B356-9267400C64D8}.Release|x86.ActiveCfg = Release|Any CPU
 		{289328C4-2B2A-4440-B356-9267400C64D8}.Release|x86.Build.0 = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|x64.Build.0 = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Debug|x86.Build.0 = Debug|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|x64.ActiveCfg = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|x64.Build.0 = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|x86.ActiveCfg = Release|Any CPU
+		{53822528-7EE0-48C5-9323-9760C8FFE658}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {089D6C54-DDCD-42B0-A1DB-B93590D04D21}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0561A3C8-1B05-41E2-9484-812C02F64F88} = {21E1031C-A08B-44CE-B313-43AFC27E3C94}
 		{C04A34A1-C1D2-42E4-B790-31C49D935A11} = {21E1031C-A08B-44CE-B313-43AFC27E3C94}
 		{7F866DE9-0EDD-4EA8-8883-7429C74172F7} = {21E1031C-A08B-44CE-B313-43AFC27E3C94}
 		{289328C4-2B2A-4440-B356-9267400C64D8} = {21E1031C-A08B-44CE-B313-43AFC27E3C94}
+		{53822528-7EE0-48C5-9323-9760C8FFE658} = {21E1031C-A08B-44CE-B313-43AFC27E3C94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089D6C54-DDCD-42B0-A1DB-B93590D04D21}
 	EndGlobalSection
 EndGlobal
